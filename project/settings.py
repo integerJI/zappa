@@ -98,7 +98,7 @@ AUTHENTICATION_BACKENDS = [
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
 
-SITE_ID = 1  # 이는 여러 사이트를 지원하는 경우 사용됩니다.
+SITE_ID = 1
 
 LOGIN_REDIRECT_URL = '/'  # 로그인 후 리다이렉트할 URL
 # Auth Setting End
